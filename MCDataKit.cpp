@@ -19,6 +19,7 @@ function test()
 
 		if cache.test <= 5 then
 			say("cache is within 2-5")
+			gamemode(Survival)
 		end
 	end
 end
@@ -33,6 +34,7 @@ end
 	MCDatapack pack(tokens);
 
 	pack.RegisterFunction("say", Envrionment::env_say);
+	pack.RegisterFunction("gamemode", Envrionment::env_gamemode);
 
 	try {
 		auto datapack = pack.Rebuild();
