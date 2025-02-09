@@ -45,4 +45,7 @@
   <ItemGroup>
     <None Include="Sample.luau" />
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Syntax\luamc.xml" />
+  </ItemGroup>
 </Project>

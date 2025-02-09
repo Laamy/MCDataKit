@@ -14,9 +14,12 @@ int main()
 # this executes on load.json & datapack:load
 say("Loaded datapack")
 
+function sex()
+	say("SEX")
+end
+
 function test()	
 	if cache.test >= 2 then
-
 		if cache.test <= 5 then
 			say("cache is within 2-5")
 			gamemode(Survival)
